@@ -9,7 +9,7 @@ Vagrant::Config.run do |config|
 
   config.vm.customize do |vm|
     vm.memory_size = 2048
-    vm.name = "rvm"
+    vm.name = "rvm-readline"
   end
 
 
